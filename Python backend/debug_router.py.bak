@@ -1,0 +1,20 @@
+
+import sys
+import os
+
+# Emulate main.py sys.path setup
+base_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(base_dir)
+sys.path.append(os.path.join(base_dir, "modules", "video_player"))
+sys.path.append(os.path.join(base_dir, "modules", "chatbot"))
+
+try:
+    print("Importing modules.chatbot.router...")
+    from modules.chatbot.router import router as chat_router
+    print(f"Chat Router: {chat_router}")
+    print("Routes:")
+    for route in chat_router.routes:
+        print(f" - {route.path} {route.methods}")
+        
+except Exception as e:
+    print(f"Import failed: {e}")

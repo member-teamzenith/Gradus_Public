@@ -1,0 +1,426 @@
+# =============================================================================
+# Video Chatbot 2.0 - Git Ignore Configuration
+# =============================================================================
+
+# =============================================================================
+# Python
+# =============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# =============================================================================
+# IDE & Editors
+# =============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+.cursor/
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =============================================================================
+# Operating System
+# =============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# Project Specific
+# =============================================================================
+# Credentials and API Keys
+.env.local
+.env.production
+.env.development
+*.key
+*.pem
+*.p12
+*.pfx
+service-account*.json
+firebase-adminsdk*.json
+
+# Logs and Debug Files
+*.log
+logs/
+debug/
+error.log
+access.log
+chatbot.log
+server.log
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+redis.dump
+dump.rdb
+
+# Cache and Temporary Files
+cache/
+tmp/
+temp/
+.cache/
+.tmp/
+*.cache
+*.pid
+
+# Generated Examples and Test Data
+examples/*.json
+examples/*.txt
+examples/chunks/
+examples/embeddings/
+examples/profiles/
+test_data/
+sample_outputs/
+
+# Vector Database Snapshots
+qdrant_snapshots/
+vector_dumps/
+embeddings_backup/
+
+# Firebase Local Emulator
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# R2/S3 Local Cache
+r2_cache/
+s3_cache/
+image_cache/
+
+# Model Downloads and Artifacts
+models/
+checkpoints/
+artifacts/
+*.bin
+*.safetensors
+*.onnx
+
+# Performance and Monitoring
+profiling/
+metrics/
+traces/
+*.prof
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*_backup
+*_old
+
+# =============================================================================
+# Development and Testing
+# =============================================================================
+# Test Coverage
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Test Results
+test-results/
+test_outputs/
+pytest_cache/
+.pytest_cache/
+
+# Benchmarks
+benchmarks/
+performance_tests/
+
+# Documentation Build
+docs/_build/
+site/
+
+# =============================================================================
+# Deployment and Production
+# =============================================================================
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Kubernetes
+*.kubeconfig
+k8s-secrets/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Production Configs
+production.yml
+prod.env
+staging.env
+
+# SSL Certificates
+*.crt
+*.csr
+*.key
+ssl/
+certs/
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+# Compressed Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Large Media Files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+
+# Audio Files
+*.mp3
+*.wav
+*.flac
+*.aac
+
+# Image Files (if not needed for testing)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.ico
+
+# Office Documents
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.pdf
+
+# Archive Files
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# Node.js (if any frontend components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# =============================================================================
+# Custom Project Exclusions
+# =============================================================================
+# Add any project-specific files or directories to ignore below
+# Example:
+# custom_configs/
+# private_data/
+# experimental/

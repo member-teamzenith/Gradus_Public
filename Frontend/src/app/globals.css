@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+body {
+  font-family: var(--font-questrial), Arial, Helvetica, sans-serif;
+}
+
+/* Custom arrow cursor with green theme */
+html,
+body,
+* {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z" fill="%2318cb96" stroke="%23000000" stroke-width="1"/></svg>') 2 2, auto;
+}
+
+/* Interactive elements with green arrow pointer cursor */
+button,
+a,
+input,
+textarea,
+select,
+[role="button"],
+[onclick],
+.cursor-pointer {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z" fill="%2318cb96" stroke="%23000000" stroke-width="1"/></svg>') 2 2, pointer;
+}
+
+/* Disabled elements with red arrow */
+button:disabled,
+input:disabled,
+textarea:disabled,
+select:disabled {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z" fill="%23ef4444" stroke="%23000000" stroke-width="1"/></svg>') 2 2, not-allowed;
+}
+
+/* Text selection areas with green I-beam cursor */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><rect x="7" y="1" width="2" height="14" fill="%2318cb96"/><rect x="4" y="4" width="8" height="1" fill="%2318cb96"/><rect x="4" y="11" width="8" height="1" fill="%2318cb96"/></svg>') 8 8, text;
+}
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Questrial', Arial, Helvetica, sans-serif;
+}
+
+/* Floating animation for badges */
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes float-delayed {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-delayed 3s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+/* Hide scrollbar for summary and description sections */
+.summary-scroll {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+}
+
+.summary-scroll::-webkit-scrollbar {
+  display: none;
+  /* WebKit */
+}

@@ -1,0 +1,111 @@
+# =============================================================================
+# Video Chatbot 2.0 - Complete Dependencies
+# =============================================================================
+# IR-First Retrieval Architecture with Hybrid Storage System
+# Supports video IR processing, transcript embedding, and streaming chat
+
+# Core FastAPI and Web Server
+fastapi>=0.115.0
+uvicorn>=0.30.0
+
+# HTTP Client for API calls and LLM integration
+httpx>=0.27.0
+requests>=2.31.0
+
+# Environment and Configuration Management
+python-dotenv>=1.0.1
+
+# Vector Database for embeddings and semantic search
+qdrant-client>=1.10.0
+
+# In-memory caching for hot data (Redis: 0-3 hours)
+redis>=5.0.0
+
+# Long-term durable storage (Firebase: 7+ days)
+google-cloud-firestore>=2.13.0
+firebase-admin>=6.0.0
+
+# Data validation and serialization
+pydantic>=2.0.0
+
+# Enhanced type hints support
+typing-extensions>=4.0.0
+
+# LangGraph for stateful chat workflows
+langgraph>=1.0.4
+langchain-core>=0.2.0
+
+# Image storage and processing (Cloudflare R2)
+boto3>=1.34.0
+
+# Testing Framework
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# =============================================================================
+# Core System Architecture
+# =============================================================================
+# Hybrid Storage Tiers:
+# - Redis (0-3h): Hot cache for active conversations
+# - Qdrant (3h-7d): Vector search for recent chats + semantic retrieval
+# - Firebase (7d+): Long-term persistent storage
+#
+# LLM Integration:
+# - DeepInfra API (Meta-Llama-3.1-8B-Instruct-Turbo)
+# - Vision processing for image attachments
+# - Streaming responses via Server-Sent Events
+#
+# Progressive Memory Management:
+# - Smart conversation summarization (every 8 messages)
+# - Zero context loss with progressive summary chains
+# - Summary nodes seamlessly stored across all storage tiers
+#
+# Automated Migration System:
+# - Intelligent chat migration based on access patterns
+# - Redis → Qdrant (12+ hours inactive)
+# - Qdrant → Firebase (7+ days inactive)
+# - Automatic cleanup with safety verification
+# - Access time tracking across all storage tiers
+#
+# Chat ID Format: {user_id}::CHAT::{video_id}
+# Message Sequencing: Redis INCR + deterministic UUIDs
+# =============================================================================
+
+# =============================================================================
+# Progressive Summary System Features
+# =============================================================================
+# Intelligent conversation summarization without context loss:
+# - Automatic summary creation every 8 messages (4 user-assistant pairs)
+# - True progressive building: each summary builds only on predecessor
+# - Cross-tier storage: summary nodes stored/migrated across all storage tiers
+# - Zero context gaps: complete conversation history preserved via summary chains
+# =============================================================================
+
+# =============================================================================
+# Automated Migration System Features
+# =============================================================================
+# Intelligent storage tier management with zero manual intervention:
+# - Access time tracking: automatic timestamp updates on chat interactions
+# - Smart migration triggers: Redis (12h) → Qdrant (7d) → Firebase
+# - Safety verification: migration success confirmed before cleanup
+# - Comprehensive logging: detailed migration statistics and error tracking
+# - Flexible scheduling: cron jobs, continuous mode, or one-time execution
+# - Dry run support: test migrations without making changes
+# =============================================================================
+
+# =============================================================================
+# Built-in Python modules (no installation required)
+# =============================================================================
+# json, datetime, os, pathlib, uuid, time, math, subprocess, webbrowser
+# base64, hashlib, concurrent.futures, threading, asyncio
+# =============================================================================
+
+# =============================================================================
+# Optional Development Dependencies (uncomment if needed)
+# =============================================================================
+# ipython>=8.0.0          # Enhanced interactive Python shell
+# jupyter>=1.0.0          # Jupyter notebook support
+# black>=23.0.0           # Code formatting
+# flake8>=6.0.0           # Linting
+# mypy>=1.0.0             # Type checking
+# =============================================================================

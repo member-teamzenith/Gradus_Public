@@ -1,0 +1,414 @@
+{
+  "GlobalDB": {
+    "Academia": {
+      "Options": [
+        "Mathematical Foundations",
+        "General Engineering",
+        "Core Computing & Programming",
+        "Systems & Architecture",
+        "Theoretical Computer Science",
+        "Advanced Tech & Specializations",
+        "Skills & Employability"
+      ],
+
+      "Mathematical Foundations": {
+        "Subjects": {
+          "Options": [
+            "Calculus",
+            "Linear Algebra",
+            "Probability & Statistics",
+            "Discrete Mathematics"
+          ],
+
+          "Calculus": {
+            "Queries": {
+              "Options": [
+                "\"Engineering Mathematics\" \"Calculus\" \"Leibnitz Theorem\" \"Taylor Series\" \"One Shot\"",
+                "Gajendra Purohit Engineering Mathematics Calculus Playlist",
+                "\"Engineering Mathematics\" \"Double Integration\" \"Triple Integration\" \"Change of Order\" \"Solved Problems\"",
+                "\"Calculus\" \"Visualization\" \"3Blue1Brown\" OR \"Steve Brunton\" \"Engineering\"",
+                "\"Engineering Mathematics\" \"Calculus\" \"Maha Revision\" \"First Year\" \"B.Tech\""
+              ]
+            }
+          },
+
+          "Linear Algebra": {
+            "Queries": {
+              "Options": [
+                  "\"Engineering Mathematics\" \"Matrices\" \"Rank\" \"Eigenvalues\" \"One Shot\"",
+                  "Gajendra Purohit Linear Algebra GATE and University",
+                  "\"Linear Algebra\" \"Cayley Hamilton\" \"Diagonalization\" \"Solved Problems\" \"University\"",
+                  "\"Engineering Mathematics\" \"Linear Algebra\" \"System of Equations\" \"GATE\" \"One Shot\"",
+                  "\"Linear Algebra\" \"Essence\" \"Vectors\" \"3Blue1Brown\""
+              ]
+            }
+          },
+
+          "Probability & Statistics": {
+            "Queries": {
+              "Options": [
+                 "\"Probability and Statistics\" \"Hypothesis Testing\" \"t-test\" \"Chi-Square\" \"One Shot\"",
+                  "Pradeep Giri Probability Distribution Normal Poisson Binomial",
+                  "Education 4u Probability Statistics t-test chi-square",
+                  "\"Engineering Mathematics\" \"Probability Distribution\" \"Normal\" \"Binomial\" \"Poisson\"",
+                  "\"Probability\" \"Statistics\" \"Curve Fitting\" \"Correlation\" \"Regression\" \"Engineering\""
+              ]
+            }
+          },
+
+          "Discrete Mathematics": {
+            "Queries": {
+              "Options": [
+                    "\"Discrete Mathematics\" \"Graph Theory\" \"Combinatorics\" \"One Shot\" \"B.Tech\"",
+                    "\"Discrete Mathematics\" \"Logic\" \"Sets\" \"Relations\" \"Functions\" \"Gate Smashers\"",
+                    "\"Discrete Mathematics\" \"Recurrence Relations\" \"Generating Functions\" \"Neso Academy\"",
+                    "\"Graph Theory\" \"Algorithms\" \"Visualized\" \"Shortest Path\" \"Engineering\""
+              ]
+            }
+          }
+        }
+      },
+
+      "General Engineering": {
+        "Subjects": {
+          "Options": [
+            "Engineering Physics",
+            "Engineering Chemistry",
+            "Basic Electrical Engineering",
+            "Engineering Mechanics",
+            "Engineering Graphics"
+          ],
+
+          "Engineering Physics": {
+            "Queries": {
+              "Options": [
+                  "\"Engineering Physics\" \"Quantum Mechanics\" \"Wave Optics\" \"One Shot\" \"B.Tech\"",
+                  "\"Engineering Physics\" \"Semiconductor\" \"Lasers\" \"Fiber Optics\" \"One Shot\"",
+                  "\"Engineering Physics\" \"Numericals\" \"Solved Problems\" \"First Year Engineering\"",
+                  "\"Engineering Physics\" \"Marathon\" \"First Year\" \"Revision\" \"B.Tech\""
+              ]
+            }
+          },
+
+          "Engineering Chemistry": {
+            "Queries": {
+              "Options": [
+                  "\"Engineering Chemistry\" \"Water Technology\" \"Fuels\" \"One Shot\" \"B.Tech\"",
+                  "\"Engineering Chemistry\" \"Corrosion\" \"Electrochemistry\" \"One Shot\" \"Mechanism\"",
+                  "\"Engineering Chemistry\" \"Polymers\" \"Spectroscopy\" \"Nanomaterials\" \"One Shot\""
+              ]
+            }
+          },
+
+          "Basic Electrical Engineering": {
+            "Queries": {
+              "Options": [
+                  "\"Basic Electrical Engineering\" \"DC Circuits\" \"Network Theorems\" \"One Shot\"",
+                  "\"Basic Electrical Engineering\" \"AC Circuits\" \"Three Phase\" \"One Shot\"",
+                  "\"Basic Electrical Engineering\" \"Transformers\" \"Electrical Machines\" \"One Shot\"",
+                  "\"Basic Electrical Engineering\" \"Complete Course\" \"First Year\" \"Single Video\""
+              ]
+            }
+          },
+
+          "Engineering Mechanics": {
+            "Queries": {
+              "Options": [
+                  "\"Engineering Mechanics\" \"Statics\" \"Equilibrium\" \"Friction\" \"One Shot\"",
+                  "\"Engineering Mechanics\" \"Dynamics\" \"Kinetics\" \"Kinematics\" \"One Shot\"",
+                  "\"Engineering Mechanics\" \"Centroid\" \"Moment of Inertia\" \"One Shot\" \"Trusses\"",
+                  "\"Engineering Mechanics\" \"Maha Revision\" \"One Shot\" \"Gate Smashers\" OR \"Tikles\""
+              ]
+            }
+          },
+
+          "Engineering Graphics": {
+            "Queries": {
+              "Options": [
+                    "\"Engineering Graphics\" \"Projection of Lines\" \"Projection of Planes\" \"One Shot\"",
+                    "\"Engineering Drawing\" \"Projection of Solids\" \"Section of Solids\" \"One Shot\"",
+                    "\"Engineering Graphics\" \"Orthographic Projection\" \"Isometric Projection\" \"Full Tutorial\"",
+                    "\"Engineering Drawing\" \"Maha Revision\" \"Question Paper Solution\" \"First Year\""
+              ]
+            }
+          }
+        }
+      },
+        "Core Computing & Programming": {
+            "Subjects": {
+            "Options": [
+                "Programming and Problem Solving",
+                "Object Oriented Programming",
+                "Data Structure and Algorithms",
+                "Design and Analysis of Algorithms",
+                "Software Engineering"
+            ],
+
+            "Programming and Problem Solving": {
+                "Queries": {
+                "Options": [
+                    "\"C Programming\" \"One Shot\" \"First Year Engineering\" \"All Units\"",
+                    "\"Problem Solving\" \"Algorithms\" \"Flowcharts\" \"Pseudocode\" \"B.Tech\"",
+                    "\"C Programming\" \"Pointers\" \"Structures\" \"File Handling\" \"Complete Tutorial\"",
+                    "\"C Language\" \"Logic Building\" \"Competitive Coding\" \"Placement Series\" \"Beginners\""
+                ]
+                }
+            },
+
+            "Object Oriented Programming": {
+                "Queries": {
+                "Options": [
+                    "\"Object Oriented Programming\" \"Java\" \"One Shot\" \"University Exam\" \"B.Tech\"",
+                    "\"OOPS Concepts\" \"Encapsulation\" \"Inheritance\" \"Polymorphism\" \"Real World Examples\"",
+                    "\"Java\" \"Exception Handling\" \"Multithreading\" \"Collections Framework\" \"Complete Course\"",
+                    "\"Object Oriented Design\" \"Low Level Design\" \"Interview Questions\" \"Solid Principles\""
+                ]
+                }
+            },
+
+            "Data Structure and Algorithms": {
+                "Queries": {
+                "Options": [
+                    "\"Data Structures and Algorithms\" \"C++\" \"One Shot\" \"From Scratch\" \"Engineering\"",
+                    "\"Data Structures\" \"Visual Explanation\" \"Stack\" \"Queue\" \"Linked List\" \"Animation\"",
+                    "\"Advanced Data Structures\" \"AVL Tree\" \"B Tree\" \"Graph Traversal\" \"BFS DFS\"",
+                    "\"Sorting Algorithms\" \"Time Complexity\" \"Space Complexity\" \"Merge Sort\" \"Quick Sort\""
+                ]
+                }
+            },
+
+            "Design and Analysis of Algorithms": {
+                "Queries": {
+                "Options": [
+                        "\"Design and Analysis of Algorithms\" \"DAA\" \"Full Course\" \"Engineering\" \"One Shot\"",
+                        "\"Algorithm Design\" \"Dynamic Programming\" \"Greedy Method\" \"Zero to Hero\"",
+                        "\"Complexity Theory\" \"P NP\" \"NP-Hard\" \"NP-Complete\" \"Reductions\" \"Examples\"",
+                        "\"Algorithms\" \"Recurrence Relations\" \"Master Theorem\" \"Asymptotic Notation\" \"Analysis\""
+                ]
+                }
+            },
+
+            "Software Engineering": {
+                "Queries": {
+                "Options": [
+                    "\"Software Engineering\" \"One Shot\" \"Semester Exam\" \"B.Tech\" \"Full Course\"",
+                    "\"SDLC Models\" \"Waterfall\" \"Agile\" \"Spiral\" \"Prototype\" \"Comparison\"",
+                    "\"Software Testing\" \"Black Box\" \"White Box\" \"Levels of Testing\" \"Methodologies\"",
+                    "\"UML Diagrams\" \"Class Diagram\" \"Sequence Diagram\" \"Use Case\" \"COCOMO Model\""
+                ]
+                }
+            }
+            }
+        },
+
+        "Systems & Architecture": {
+            "Subjects": {
+            "Options": [
+                "Digital Electronics",
+                "Computer Organization",
+                "Microprocessors and Interfacing",
+                "Operating System",
+                "Linux & Scripting",
+                "Database Management System",
+                "Computer Networks"
+            ],
+
+            "Digital Electronics": {
+                "Queries": {
+                "Options": [
+                        "\"Digital Electronics\" \"Number Systems\" \"Sequential Circuits\" \"Neso Academy\"",
+                        "\"K-Map\" \"Minimization\" \"4 Variable\" \"5 Variable\" \"Solved Problems\" \"Digital Logic\"",
+                        "\"Logic Families\" \"TTL\" \"CMOS\" \"ECL\" \"Characteristics\" \"Comparison\"",
+                        "\"Digital Electronics\" \"Counters\" \"Flip Flops\" \"JK Flip Flop\" \"Design Steps\""
+                ]
+                }
+            },
+
+            "Computer Organization": {
+                "Queries": {
+                "Options": [
+                        "\"Computer Organization and Architecture\" \"Full Course\" \"Morris Mano\" \"Neso Academy\"",
+                        "\"Computer Architecture\" \"Pipelining\" \"Hazards\" \"Data Hazards\" \"Solutions\"",
+                        "\"Cache Memory\" \"Mapping Techniques\" \"Direct\" \"Associative\" \"Numericals\"",
+                        "\"Control Unit\" \"Hardwired\" \"Microprogrammed\" \"Difference\" \"Design\""
+                ]
+                }
+            },
+
+            "Microprocessors and Interfacing": {
+                "Queries": {
+                "Options": [
+                        "\"Microprocessor\" \"8085\" \"Architecture\" \"Timing Diagram\" \"Pin Diagram\"",
+                        "\"Microprocessor\" \"8086\" \"Memory Segmentation\" \"Physical Address\" \"Calculation\"",
+                        "\"Interfacing\" \"8255 PPI\" \"Modes\" \"Control Word\" \"8086\" \"Diagram\"",
+                        "\"Assembly Language Programming\" \"8086\" \"Examples\" \"Step by Step\" \"Addition\""
+                ]
+                }
+            },
+
+            "Operating System": {
+                "Queries": {
+                "Options": [
+                        "\"Operating System\" \"CPU Scheduling\" \"Algorithms\" \"Gantt Chart\" \"Solved Problems\"",
+                        "\"Deadlock\" \"Bankers Algorithm\" \"Avoidance\" \"Detection\" \"Numerical\"",
+                        "\"Memory Management\" \"Paging\" \"Segmentation\" \"Virtual Memory\" \"Tutorial\"",
+                        "\"Process Synchronization\" \"Semaphores\" \"Mutex\" \"Producer Consumer\" \"Dining Philosophers\""
+                ]
+                }
+            },
+
+            "Linux & Scripting": {
+                "Queries": {
+                "Options": [
+                        "\"Linux\" \"FileSystem Hierarchy\" \"Architecture\" \"Kernel\" \"Shell\" \"Beginners\"",
+                        "\"Linux Commands\" \"Grep\" \"Sed\" \"Awk\" \"Practical Examples\" \"Terminal\"",
+                        "\"Bash Scripting\" \"Shell Scripting\" \"Full Course\" \"Automation\" \"Tutorial\"",
+                        "\"Linux Administration\" \"User Management\" \"Permissions\" \"Chmod\" \"Chown\""
+                ]
+                }
+            },
+
+            "Database Management System": {
+                "Queries": {
+                "Options": [
+                        "\"DBMS\" \"Normalization\" \"1NF\" \"2NF\" \"3NF\" \"BCNF\" \"Solved Examples\"",
+                        "\"SQL\" \"Queries\" \"Joins\" \"Subqueries\" \"Full Course\" \"Live Coding\"",
+                        "\"ER Diagram\" \"Entity Relationship\" \"Relational Model\" \"Conversion\" \"Rules\"",
+                        "\"Transaction Management\" \"Concurrency Control\" \"Serializability\" \"ACID Properties\""
+                ]
+                }
+            },
+
+            "Computer Networks": {
+                "Queries": {
+                "Options": [
+                        "\"Computer Networks\" \"OSI Model\" \"TCP/IP\" \"Layers\" \"Functions\" \"Difference\"",
+                        "\"IP Addressing\" \"Subnetting\" \"IPv4\" \"VLSM\" \"Practice Problems\" \"One Shot\"",
+                        "\"Data Link Layer\" \"Sliding Window Protocol\" \"Stop and Wait\" \"Efficiency\" \"Numericals\"",
+                        "\"Routing Algorithms\" \"Dijkstra\" \"Link State\" \"Distance Vector\" \"Step by Step\""
+                ]
+                }
+            }
+            }
+        },
+
+        "Theoretical Computer Science": {
+            "Subjects": {
+            "Options": [
+                "Theory of Computing",
+                "Compiler Design"
+            ],
+
+            "Theory of Computing": {
+                "Queries": {
+                "Options": [
+                        "\"Theory of Computation\" \"One Shot\" \"Marathon\" GATE \"Complete Syllabus\"",
+                        "\"Finite Automata\" \"Pushdown Automata\" \"Construction\" \"Conversion\" \"Examples\" \"NFA to DFA\" \"Mealy to Moore\"",
+                        "\"Turing Machine\" \"Undecidability\" \"Halting Problem\" \"NP Completeness\" \"Complexity Theory\" \"Rice's Theorem\"",
+                        "\"Theory of Computation\" SPPU \"Sem 5\" \"Unit Wise\" \"Solved Question Paper\" \"PYQ\""
+                ]
+                }
+            },
+
+            "Compiler Design": {
+                "Queries": {
+                "Options": [
+                        "\"Compiler Design\" \"One Shot\" \"GATE\" \"Lexical Analysis\" \"Syntax Analysis\" \"Code Generation\" \"Complete Course\"",
+                        "\"System Programming\" \"Assembler\" \"Macro Processor\" \"Loaders and Linkers\" \"SPOS\" \"Pass 1\" \"Pass 2\"",
+                        "\"Syntax Analysis\" \"Parsing Techniques\" \"LL1\" \"LR Parsing\" \"CLR\" \"LALR\" \"Parser Construction\" \"Compiler\"",
+                        "\"Code Optimization\" \"Intermediate Code Generation\" \"Three Address Code\" \"Data Flow Analysis\" \"DAG\" \"Compiler Design\""
+                ]
+                }
+            }
+            }
+        },
+
+        "Advanced Tech & Specializations": {
+            "Subjects": {
+            "Options": [
+                "Computer Graphics",
+                "Machine Learning",
+                "Soft Computing",
+                "Cloud Computing",
+                "Cyber Security"
+            ],
+
+            "Computer Graphics": {
+                "Queries": {
+                "Options": [
+                        "\"Computer Graphics\" \"Scan Conversion\" \"Bresenham\" \"Line Drawing\" \"One Shot\" Engineering",
+                        "\"Computer Graphics\" \"2D 3D Transformations\" \"Clipping\" \"Window to Viewport\" \"Marathon\"",
+                        "\"Computer Graphics\" \"Projections\" \"Bezier Curves\" \"Hidden Surface Removal\" \"Complete Syllabus\"",
+                        "\"Multimedia Systems\" \"Data Compression\" \"Huffman Coding\" \"JPEG\" \"One Shot\""
+                ]
+                }
+            },
+
+            "Machine Learning": {
+                "Queries": {
+                "Options": [
+                        "\"Machine Learning\" \"Supervised Learning\" \"Regression\" \"Gradient Descent\" \"One Shot\" BTech",
+                        "\"Machine Learning\" \"Neural Networks\" \"Backpropagation\" \"Perceptron\" \"Full Course\" Engineering",
+                        "\"Machine Learning\" \"Decision Trees\" \"Support Vector Machine\" \"K-Means\" \"Marathon\"",
+                        "\"Machine Learning\" \"Reinforcement Learning\" \"Dimensionality Reduction\" \"PCA\" \"Complete Syllabus\"",
+                        "\"Probability\" \"Machine Learning\" \"StatQuest\" OR \"Josh Starmer\" \"Basics\""
+                ]
+                }
+            },
+
+            "Soft Computing": {
+                "Queries": {
+                "Options": [
+                        "\"Soft Computing\" \"Neural Networks\" \"Hebbian Learning\" \"Perceptron\" \"One Shot\" Engineering",
+                        "\"Soft Computing\" \"Fuzzy Logic\" \"Fuzzy Sets\" \"Inference System\" \"Marathon\"",
+                        "\"Genetic Algorithms\" \"Soft Computing\" \"Crossover\" \"Mutation\" \"One Shot\"",
+                        "\"Soft Computing\" \"Hybrid Systems\" \"Neuro-Fuzzy\" \"ANFIS\" \"Full Course\""
+                ]
+                }
+            },
+
+            "Cloud Computing": {
+                "Queries": {
+                "Options": [
+                        "\"Cloud Computing\" \"NIST Model\" \"SaaS PaaS IaaS\" \"Service Models\" \"One Shot\" BTech",
+                        "\"Cloud Computing\" \"Virtualization\" \"Hypervisor\" \"Virtual Machine\" \"Marathon\" Engineering",
+                        "\"Cloud Computing\" \"Cloud Architecture\" \"Resource Management\" \"Service Oriented Architecture\" \"One Shot\"",
+                        "\"Cloud Computing\" \"Cloud Security\" \"MapReduce\" \"Hadoop\" \"Full Course\" Syllabus"
+                ]
+                }
+            },
+
+            "Cyber Security": {
+                "Queries": {
+                "Options": [
+                        "\"Cyber Security\" \"Cyber Crime\" \"Introduction\" \"One Shot\" BTech",
+                        "\"Cyber Security\" \"Phishing\" \"DoS\" \"SQL Injection\" \"Malware\" \"Marathon\"",
+                        "\"Cyber Security\" \"Cyber Forensics\" \"Digital Evidence\" \"Investigation\" \"One Shot\" Engineering",
+                        "\"Cyber Law\" \"IT Act 2000\" \"Intellectual Property Rights\" \"Cyber Security\" \"Full Course\""
+                ]
+                }
+            }
+            }
+        },
+
+        "Skills & Employability": {
+            "Subjects": {
+            "Options": [
+                "Aptitude"
+            ],
+
+            "Aptitude": {
+                "Queries": {
+                "Options": [
+                        "\"Quantitative Aptitude\" \"One Shot\" \"Placements\" OR \"Engineering\"",
+                        "\"Logical Reasoning\" \"Marathon\" \"GATE\" OR \"Campus Recruitment\"",
+                        "\"Verbal Ability\" \"Marathon\" \"Placements\" -\"CAT\"",
+                        "\"General Aptitude\" \"Complete Syllabus\" \"GATE\" OR \"TCS NQT\""
+                ]
+                }
+            }
+            }
+        }
+    }
+  }
+}

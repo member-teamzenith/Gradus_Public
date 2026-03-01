@@ -1,0 +1,33 @@
+# =============================================================================
+# Orion Server - Production Dependencies
+# =============================================================================
+
+# Core FastAPI and Web Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# HTTP Client (Async)
+httpx[http2]>=0.27.0
+# requests>=2.31.0  # DEPRECATED: Replaced by httpx. No direct imports found.
+
+# Configuration
+python-dotenv>=1.0.1
+
+# Data Models & Typing
+pydantic>=2.10.0
+typing-extensions>=4.0.0
+
+# Database & Storage
+qdrant-client>=1.10.0
+redis>=5.0.0
+firebase-admin>=6.0.0
+# google-cloud-firestore>=2.13.0  # Note: Wrapped by firebase-admin
+boto3>=1.34.0
+
+# AI & Agents
+langgraph>=1.0.4
+# langchain-core>=0.2.0  # Note: Transitive dependency of langgraph
+
+# Development / Testing (Optional - Uncomment if needed)
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0

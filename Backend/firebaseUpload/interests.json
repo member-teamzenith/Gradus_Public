@@ -1,0 +1,236 @@
+{
+  "GlobalDB": {
+    "Beyond": {
+      "Options": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning (ML)",
+        "Generative AI (Gen AI)",
+        "Agentic AI (Autonomous Agents & Systems)",
+        "Data Science & Analytics",
+        "Data Structures and Algorithms (DSA)",
+        "Web Development",
+        "Android Development",
+        "Game Development",
+        "System Design",
+        "DevOps",
+        "Cloud Computing",
+        "Cybersecurity",
+        "Ethical Hacking",
+        "Product Management",
+        "UI UX Design",
+        "Digital Marketing",
+        "Content Creation",
+        "Financial Literacy & Trading"
+      ],
+
+      "Artificial Intelligence (AI)": {
+        "Queries": {
+          "Options": [
+            "\"Artificial Intelligence\" \"Search Algorithms\" \"State Space\" \"Heuristic\" lecture",
+            "\"Knowledge Representation\" \"First Order Logic\" \"Symbolic AI\" course",
+            "\"Automated Planning\" \"STRIPS\" \"PDDL\" \"Partial Order Planning\" lecture",
+            "\"Probabilistic Graphical Models\" \"Bayesian Networks\" \"Hidden Markov Model\" tutorial"
+          ]
+        }
+      },
+
+      "Machine Learning (ML)": {
+        "Queries": {
+          "Options": [
+            "\"Machine Learning\" \"Supervised Learning\" \"Regression\" \"Classification\" full course",
+            "\"Unsupervised Learning\" \"Clustering\" \"PCA\" \"Dimensionality Reduction\" lecture",
+            "\"Reinforcement Learning\" \"Markov Decision Process\" \"Q-Learning\" \"Policy Gradient\" tutorial",
+            "\"Machine Learning Theory\" \"Gradient Descent\" \"Bias Variance Tradeoff\" \"Overfitting\" lecture"
+          ]
+        }
+      },
+
+      "Generative AI (Gen AI)": {
+        "Queries": {
+          "Options": [
+            "\"Generative AI\" \"Transformer Architecture\" \"Self-Attention\" \"Large Language Models\" deep dive",
+            "\"Diffusion Models\" \"Denoising Diffusion\" \"Generative Adversarial Networks\" \"Variational Autoencoders\" lecture",
+            "\"Large Language Models\" \"Fine Tuning\" \"RLHF\" \"Instruction Tuning\" course",
+            "\"Generative AI\" \"Evaluation Metrics\" \"Benchmarks\" \"RAG\" \"Hallucination\" seminar"
+          ]
+        }
+      },
+
+      "Agentic AI (Autonomous Agents & Systems)": {
+        "Queries": {
+          "Options": [
+            "\"Agentic AI\" \"Cognitive Architecture\" \"Memory\" \"Planning\" \"ReAct\" tutorial",
+            "\"LLM Agents\" \"Function Calling\" \"Tool Use\" \"API Integration\" roadmap",
+            "\"Multi-Agent Systems\" \"Orchestration\" \"Swarm Intelligence\" \"Agent Collaboration\" lecture",
+            "\"Building AI Agents\" \"Design Patterns\" \"Production\" \"Reliability\" \"Safety\" talk"
+          ]
+        }
+      },
+
+      "Data Science & Analytics": {
+        "Queries": {
+          "Options": [
+            "\"Data Science\" \"Statistical Inference\" \"Probability\" \"Hypothesis Testing\" \"Bayesian\" course",
+            "\"Causal Inference\" \"Experimental Design\" \"A/B Testing\" \"Counterfactuals\" lecture",
+            "\"Data Engineering\" \"ETL\" \"Data Pipelines\" \"SQL\" \"Data Warehousing\" full course",
+            "\"Data Visualization\" \"Exploratory Data Analysis\" \"Storytelling with Data\" \"Dashboard Design\" tutorial"
+          ]
+        }
+      },
+
+      "Data Structures and Algorithms (DSA)": {
+        "Queries": {
+          "Options": [
+            "\"Data Structures\" linear course explained",
+            "\"Graph Theory\" algorithms data structures course",
+            "\"Algorithm Design\" dynamic programming full course",
+            "\"Time Complexity\" algorithms analysis tutorial"
+          ]
+        }
+      },
+
+      "Web Development": {
+        "Queries": {
+          "Options": [
+            "\"Web Architecture\" client server course",
+            "\"Frontend Web Development\" fundamentals course",
+            "\"Backend Web Development\" full course",
+            "\"Full Stack Web Development\" complete course"
+          ]
+        }
+      },
+
+      "Android Development": {
+        "Queries": {
+          "Options": [
+            "\"Android App Development\" fundamentals course",
+            "\"Android UI\" design principles tutorial",
+            "\"Android Clean Architecture\" explained course",
+            "\"Android Data Layer\" architecture tutorial"
+          ]
+        }
+      },
+
+      "Game Development": {
+        "Queries": {
+          "Options": [
+            "\"Game Engine Architecture\" explained course",
+            "\"Computer Graphics\" rendering tutorial",
+            "\"Game Programming Patterns\" full course",
+            "\"Game Physics\" engine tutorial"
+          ]
+        }
+      },
+
+      "System Design": {
+        "Queries": {
+          "Options": [
+            "\"Distributed Systems\" engineering course",
+            "\"System Design\" scalability course",
+            "\"Database Design\" distributed systems tutorial",
+            "\"System Design Interview\" full course"
+          ]
+        }
+      },
+
+      "DevOps": {
+        "Queries": {
+          "Options": [
+            "\"DevOps\" engineering career roadmap 2026 course",
+            "\"Continuous Integration\" \"Continuous Delivery\" pipeline tutorial",
+            "\"Infrastructure as Code\" automation principles course",
+            "\"Site Reliability Engineering\" \"Observability\" monitoring guide"
+          ]
+        }
+      },
+
+      "Cloud Computing": {
+        "Queries": {
+          "Options": [
+            "\"Cloud Computing\" architecture design patterns course",
+            "\"Cloud Native\" \"Serverless\" architecture comparison",
+            "\"Cloud Security\" \"Shared Responsibility Model\" training",
+            "\"Cloud Computing\" fundamentals core concepts tutorial"
+          ]
+        }
+      },
+
+      "Cybersecurity": {
+        "Queries": {
+          "Options": [
+            "\"Security Operations Center\" \"SOC Analyst\" full course",
+            "\"Network Security\" \"Endpoint Protection\" fundamentals",
+            "\"Application Security\" \"Web Application\" vulnerabilities",
+            "\"Cybersecurity\" career roadmap certification guide"
+          ]
+        }
+      },
+
+      "Ethical Hacking": {
+        "Queries": {
+          "Options": [
+            "\"Ethical Hacking\" reconnaissance information gathering tutorial",
+            "\"Privilege Escalation\" \"Windows\" \"Linux\" techniques",
+            "\"Penetration Testing\" methodology exploit course",
+            "\"Post Exploitation\" persistence lateral movement guide"
+          ]
+        }
+      },
+
+      "Product Management": {
+        "Queries": {
+          "Options": [
+            "\"Product Strategy\" full course roadmap frameworks",
+            "\"User Research\" \"Product Management\" masterclass data-driven",
+            "\"Agile Methodologies\" \"Product Owner\" full course lifecycle",
+            "\"Go-to-Market Strategy\" \"Product Launch\" guide positioning"
+          ]
+        }
+      },
+
+      "UI UX Design": {
+        "Queries": {
+          "Options": [
+            "\"UX Research\" methodology full course interviewing",
+            "\"Information Architecture\" \"Wireframing\" tutorial structure",
+            "\"UI Design\" \"Visual Design Principles\" course typography color",
+            "\"Usability Testing\" \"Prototyping\" guide accessibility"
+          ]
+        }
+      },
+
+      "Digital Marketing": {
+        "Queries": {
+          "Options": [
+            "\"Search Engine Optimization\" \"Content Strategy\" full course evergreen",
+            "\"Performance Marketing\" \"Paid Media Strategy\" course PPC",
+            "\"Social Media Strategy\" \"Brand Building\" masterclass pillars",
+            "\"Marketing Analytics\" data driven tutorial measurement"
+          ]
+        }
+      },
+
+      "Content Creation": {
+        "Queries": {
+          "Options": [
+            "\"Storytelling\" \"Scriptwriting\" masterclass pre-production",
+            "\"Cinematography\" \"Lighting Techniques\" tutorial composition",
+            "\"Video Editing\" \"Sound Design\" full course workflow",
+            "\"Personal Branding\" \"Audience Growth\" guide monetization"
+          ]
+        }
+      },
+
+      "Financial Literacy & Trading": {
+        "Queries": {
+          "Options": [
+            "\"Personal Finance\" \"Wealth Management\" full course planning",
+            "\"Fundamental Analysis\" \"Stock Valuation\" tutorial statements",
+            "\"Technical Analysis\" \"Price Action\" full course structure",
+            "\"Trading Psychology\" \"Risk Management\" guide discipline"
+          ]
+        }
+      }
+    }
+  }
+}
