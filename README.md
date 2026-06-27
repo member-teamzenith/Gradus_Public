@@ -4,7 +4,7 @@
 
 **AI-Native Adaptive Learning Engine**
 
-*Closed-loop cognitive modeling with concept-level granularity, autonomous multi-agent orchestration, and deterministic adaptation — not an LLM wrapper.*
+*Closed-loop cognitive modeling with concept-level granularity, autonomous multi-agent orchestration, and deterministic adaptation.*
 
 [![License: PolyForm NonCommercial](https://img.shields.io/badge/License-PolyForm%20NC-blue.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
