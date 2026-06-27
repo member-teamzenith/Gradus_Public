@@ -10,10 +10,12 @@
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-async-009688.svg)](https://fastapi.tiangolo.com/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-multi--agent-orange.svg)](https://langchain-ai.github.io/langgraph/)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black.svg)](https://nextjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org/)
 [![Qdrant](https://img.shields.io/badge/Qdrant-vector_search-DC143C.svg)](https://qdrant.tech/)
 
 </div>
+
+> **Scope & Authorship:** The entire AI intelligence layer — OrionServer, the Orion Engine, all execution agents, the Orion Learner Model, the quiz harness, and all agentic infrastructure — was **designed and built entirely solo**. The Node.js operational layer and Next.js frontend appear in architecture diagrams for system context only.
 
 ---
 
@@ -41,8 +43,6 @@ Traditional online learning platforms treat every learner the same. Whether some
 ---
 
 ## 🏗️ System Architecture
-
-Gradus is composed of three independently deployable services. The intelligence layer (OrionServer) is the system's brain — everything else serves it.
 
 ```mermaid
 graph TB
@@ -95,6 +95,8 @@ graph TB
     CB --> QD
     CB --> FS
 ```
+
+Gradus is composed of three independently deployable services. The intelligence layer (OrionServer) is the system's brain — everything else serves it.
 
 **Key architectural decision:** The Orion Engine is the single owner of all learner state. No execution agent, no frontend component, and no external service writes to learner state directly. Every state mutation flows through the **Event Pipeline** as a typed, versioned JSON event — processed by the **Update Engine** — which guarantees auditability, replayability, and a single source of truth.
 
@@ -167,6 +169,14 @@ graph TD
 ## 🧠 The Orion Learner Model (OLM)
 
 The OLM is the living, per-learner data structure that Orion continuously reads and writes. It is not a user profile — it is a **multi-dimensional cognitive state machine** that models what the learner knows, how they learn, how fast they forget, and what they prefer. It consists of 5 active layers:
+
+| Layer | Name | What It Models |
+|---|---|---|
+| **1** | Concept Knowledge Map | Per-concept confidence, mastery tier, FSRS stability & retrievability |
+| **2** | Cognitive Trait Profile | Personal multipliers — forgetting rate, learning velocity, transfer efficiency |
+| **3** | Subject Ability Rating (ELO) | Competency scalar per subject, updated on every graded quiz event |
+| **4** | Preference Profile | Instructional style weights, pacing, content density — time-decayed from behavior |
+| **5** | Subject Memory (FSRS) | Forgetting curve per subject — drives automated spaced review triggers |
 
 ```
 OrionLearnerModel(user_id):
@@ -358,9 +368,9 @@ Quarantined questions are automatically excluded from future generation. This cr
 
 ---
 
-## 📐 Design Principles
+## 📐 Architectural Invariants
 
-These are binding architectural constraints — not aspirational guidelines:
+These are binding constraints — not aspirational guidelines. Every one is enforced structurally, not by convention:
 
 1. **Deterministic Over Opaque.** Every adaptation action is traceable to a formula, a signal, and a weight. No black-box neural networks in the decision loop. LLMs generate content; they don't make decisions.
 
@@ -460,7 +470,7 @@ This prevents CPU-heavy PDF extraction from blocking the async event loop, and p
 | **Firebase Firestore** | Cold-tier conversation archive |
 | **httpx** | Async HTTP/2 client for all external API calls |
 
-### Node.js Backend (Operational Layer)
+### Node.js Backend (Operational Layer) *(team-built — shown for architectural context)*
 | Technology | Role |
 |---|---|
 | **Express.js** | REST API server |
@@ -469,10 +479,10 @@ This prevents CPU-heavy PDF extraction from blocking the async event loop, and p
 | **Redis** | Response caching |
 | **Multer** | File upload handling |
 
-### Frontend (Next.js)
+### Frontend (Next.js) *(team-built — shown for architectural context)*
 | Technology | Role |
 |---|---|
-| **Next.js 16 / React 19** | Core UI framework with App Router |
+| **Next.js 15 / React 19** | Core UI framework with App Router |
 | **Tailwind CSS v4** | Styling system |
 | **Redux Toolkit + redux-persist** | Global state management with persistence |
 | **Motion (Framer)** | Animations and transitions |
@@ -521,6 +531,8 @@ Gradus_Public/
         │       └── Storage/                 # Redis → Qdrant → Firebase tiered storage
         └── utils/               # Shared Qdrant client singleton
 ```
+
+*`Frontend/` and `Backend/` are team-built components included for full-system context. The AI intelligence layer (`Python backend/OrionServer/`) was designed and built entirely solo.*
 
 ---
 
